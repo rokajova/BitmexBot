@@ -1,0 +1,30 @@
+Apr 12, 2018, 10:00:07 PM first buy. Total balance 0.1027 . LONG TESTING WITH X2 LEVERAGE
+Apr 16, 2018, 6:00:13 AM last sell. Total balance 0.1010
+
+Buy.
+if 1st candle ma1 > ma2 & 2nd candle ma1 <= ma2
+Close
+if 1st candle ma1 < ma2 & 2nd candle ma1 >= ma2
+if 1st candle ma1 < ma2 & 2nd candle ma1 < ma2 (make sure we dont have any open positions)
+Wait
+if 1st candle ma1 > m2 & 2nd candle ma1 > ma2
+
+
+LONG TESTING WITH X5  LEVERAGE 3000 CONTRACTS A BUY.( new code)
+Start balance: 0.50315219. I'm going to leave the bot running on Testnet overnight.
+Trades complete (buy + sell = 1 trade)
+Profitable trades : 1
+Unprofitable trades: 5
+End balance: 0.4987
+Problem: if candle[0] has MA1 > MA2, and candle[1] MA1 just crossed over MA2, it's in "wait mode",
+instead of "buy" mode.
+
+MAINNET. Going to leave this for 24 hours.
+Start Balance: 0.11863826
+First order: Apr 21, 2018, 11:37:38 PM.
+prasidejus 9pm botas pradejo deti shotus. gali buti kazkas su kirtimusi ma1
+
+April 24. 
+Changed the execution timers to 30 secs.
+
+

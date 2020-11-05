@@ -360,6 +360,7 @@ namespace BitMEX
         public double? MA2 { get; set; }
     }
 
+
     public class Position
     {
         public DateTime TimeStamp { get; set; }
